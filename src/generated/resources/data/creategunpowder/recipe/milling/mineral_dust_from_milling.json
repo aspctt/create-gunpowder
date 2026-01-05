@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "creategunpowder:mineral_rich_blocks"
+    }
+  ],
+  "processing_time": 50,
+  "results": [
+    {
+      "count": 2,
+      "id": "creategunpowder:mineral_dust"
+    }
+  ]
+}

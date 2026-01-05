@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "creategunpowder:flint_shard"
+    },
+    {
+      "item": "creategunpowder:carbon_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "creategunpowder:volatile_powder"
+    }
+  ]
+}

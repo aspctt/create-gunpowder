@@ -1,0 +1,8 @@
+// 1.21.1	2026-01-05T19:23:48.0709807	Create: Gunpowder's Processing Recipes
+14fb83e99e9b6ea80bc8d727e01304054ccb8154 data/creategunpowder/recipe/milling/carbon_dust_from_milling.json
+fb94db1349ae9fe329b22c0009b428d28b2908c3 data/creategunpowder/recipe/milling/mineral_dust_from_milling.json
+e44f08ed6f94ee514e54a51e1f809b0a021ab683 data/creategunpowder/recipe/mixing/gunpowder_from_mixing.json
+710b8b4193ee5f5e1484a7e33f7e0aeb8d90b6fc data/creategunpowder/recipe/mixing/gunpowder_from_mixing_heated.json
+cea7095ff43517d7c501fdc5ae00f81d8ea17568 data/creategunpowder/recipe/mixing/gunpowder_from_mixing_superheated.json
+7156f4feb2c350b7fc3dfa0fe975ab5a8a43c7f9 data/creategunpowder/recipe/mixing/volatile_powder_from_mixing.json
+08df22de29f2eeec6e9e7e6cc45152bd71453474 data/creategunpowder/recipe/pressing/flint_shard_from_pressing.json

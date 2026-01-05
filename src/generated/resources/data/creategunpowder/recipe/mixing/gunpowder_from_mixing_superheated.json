@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "creategunpowder:volatile_powder"
+    },
+    {
+      "item": "creategunpowder:mineral_dust"
+    },
+    {
+      "item": "creategunpowder:mineral_dust"
+    },
+    {
+      "type": "neoforge:single",
+      "amount": 500,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "count": 3,
+      "id": "minecraft:gunpowder"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "creategunpowder:volatile_powder"
+    },
+    {
+      "item": "creategunpowder:mineral_dust"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:gunpowder"
+    }
+  ]
+}
