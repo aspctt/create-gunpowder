@@ -46,7 +46,7 @@ authors="aspctt"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Craftable gunpowder via Create.
+Gunpowder production via Create!
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
