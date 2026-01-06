@@ -1,25 +1,20 @@
-
-Installation information
+<p align=center> Create: Gunpowder </p>
 =======
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+![Version](https://img.shields.io/badge/Available_for-1.21.1-blue)
+![Mod Loader](https://img.shields.io/badge/Mod_Loader-NeoForge-orange)
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+Create: Gunpowder adds production chains to produce gunpowder, mainly for modpacks or worlds where creepers don’t exist or drop it. Instead of mob farms, gunpowder becomes a processed resource that fits naturally into Create’s progression.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+### Production
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+Crush Flint --> Flint Shard
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+Mill Coal --> Carbon Dust
+
+Mill Sand --> Mineral Dust
+
+Mix Flint + Coal --> Volatile Powder
+
+Mix Volatile Powder + Sand + Water + Heat --> Gunpowder
+![Recipe Path](https://cdn.modrinth.com/data/cached_images/d6c9891031b95f3a67822b1bd91b00e74c499e22.png)
