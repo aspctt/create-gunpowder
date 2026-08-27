@@ -1,0 +1,105 @@
+CREATE: GUNPOWDER LICENSE
+
+Copyright (c) 2026 ASPCT. All rights reserved.
+
+This license covers the Create: Gunpowder mod: its source code, compiled
+binaries, and the assets distributed with it (the "Software").
+
+
+1. RESERVED RIGHTS
+
+   Except as expressly granted in Section 2, no permission is given to copy,
+   modify, merge, publish, distribute, sublicense, sell, decompile,
+   disassemble, or otherwise reverse-engineer the Software, or to create
+   derivative works of it, in whole or in part.
+
+   You may download and use the Software for personal play.
+
+
+2. PACK CONTENT GRANT
+
+   Create: Gunpowder adds a production chain that pack authors are expected to
+   rebalance, extend, or switch off. Nothing in Section 1 is intended to
+   restrict that, and this section grants the rights needed to do it.
+
+   "Pack Content" means data and assets loaded at runtime by Minecraft, the mod
+   loader, or another mod: datapacks, resource packs, recipe and tag overrides,
+   KubeJS or CraftTweaker scripts, configuration files, and similar files that
+   contain no part of the Software's own code or assets.
+
+   You are granted a perpetual, worldwide, royalty-free, irrevocable right to:
+
+   (a) Create Pack Content that adds to, alters, overrides, or disables
+       Create: Gunpowder's recipes, tags, items, and other registry entries,
+       for any purpose, including commercial purposes.
+
+   (b) Distribute, sell, and license your Pack Content on any terms you choose,
+       through any channel.
+
+   (c) Use Create: Gunpowder's registry identifiers, item and tag names, recipe
+       definitions, translation keys, and directory layouts for the purpose of
+       authoring Pack Content or interoperating with the Software.
+
+   (d) Write separate mods, tools, editors, validators, or libraries that
+       interoperate with Create: Gunpowder through its registry entries or its
+       recipe and tag definitions.
+
+   You own your Pack Content. This license claims no ownership over, and
+   imposes no licensing terms on, content you create. Overriding or extending
+   Create: Gunpowder's recipes does not make your work a derivative work of the
+   Software, and no attribution to Create: Gunpowder is required.
+
+   This grant is irrevocable: it cannot be withdrawn from Pack Content already
+   published, and it survives any future change to this license.
+
+
+3. LIMITS OF THE GRANT
+
+   Section 2 does not permit you to:
+
+   (a) Redistribute the Software's own code, binaries, or bundled assets,
+       whether modified or unmodified, except as allowed in Section 4.
+
+   (b) Present Pack Content, or any other work, in a way that implies it is
+       Create: Gunpowder itself, or that it is endorsed by or affiliated with
+       the project.
+
+
+4. MODPACK INCLUSION
+
+   You may include Create: Gunpowder in a modpack, free or paid, provided that
+   all of the following hold:
+
+   (a) The modpack uses a distribution format that fetches Create: Gunpowder
+       from an official distribution page operated or authorised by the
+       copyright holder. The end user's launcher performs the download; the
+       modpack itself carries a reference, not the file. CurseForge manifests
+       and Modrinth .mrpack index entries are the intended examples.
+
+   (b) The modpack does not bundle, mirror, re-host, or otherwise include a
+       copy of the Create: Gunpowder JAR.
+
+   (c) Create: Gunpowder is distributed unmodified. You may not patch,
+       repackage, strip, recompile, or alter the JAR in any way.
+
+   (d) Configuration files and Pack Content shipped alongside are unaffected by
+       this section and remain governed by Section 2.
+
+   This permission is automatically revoked for any modpack that breaches (a)
+   through (c).
+
+
+5. THIRD-PARTY COMPONENTS
+
+   This project depends on, and builds against, third-party material governed
+   by its own terms. See the NOTICE file distributed with this Software.
+
+
+6. NO WARRANTY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE
+   USE OR OTHER DEALINGS IN THE SOFTWARE.

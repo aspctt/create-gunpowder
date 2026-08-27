@@ -1,26 +1,70 @@
-# eclipse
-bin
-*.launch
-.settings
-.metadata
-.classpath
-.project
+###############################################################################
+# Create: Gunpowder - .gitignore for a Java / NeoForge Minecraft mod
+###############################################################################
 
-# idea
-out
+## Gradle build output
+build/
+.gradle/
+gradletasknamecache
+gradle-app.setting
+
+# gradle/wrapper/gradle-wrapper.jar is intentionally TRACKED. It is what lets a
+# fresh clone run ./gradlew without Gradle installed, so never add a blanket
+# *.jar rule here.
+
+## Local maven repository, written by the publishing block in build.gradle
+repo/
+
+## IDE / editor cruft
+.idea/
+.vscode/
+.vs/
+out/
+*.iml
 *.ipr
 *.iws
-*.iml
-.idea
+.settings/
+.metadata/
+.classpath
+.project
+bin/
+eclipse/
+*.launch
 
-# gradle
-build
-.gradle
+## OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# other
-eclipse
-run
-runs
-run-data
+## Development runtime
+# Produced by launching the game: worlds, logs, crash reports, options, and the
+# mods dropped into run/mods for testing. A world save in particular would be
+# both large and meaningless to anyone else.
+run/
+runs/
+run-data/
 
-repo
+## Crash artefacts, wherever they land
+crash-reports/
+*.hprof
+hs_err_pid*.log
+
+###############################################################################
+# Local-only working material. NOT for publication.
+#
+# external-files/ holds other-mods (third-party mod binaries the build compiles
+# against and development runs load), plus context-files and bug-reports. The
+# binaries are other people's work under other people's licences, several of
+# which forbid redistribution. This mod is All Rights Reserved and ships none
+# of them.
+#
+# photoshop/ is deliberately NOT ignored. It holds the layered sources for the
+# mod icon and the store gallery, which are this project's own artwork and are
+# tracked with it.
+#
+# Remove an entry only if you deliberately intend to publish it. See NOTICE.
+###############################################################################
+external-files/
+context-files/
+bug-reports/
+NOTES.md
