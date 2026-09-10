@@ -1,8 +1,19 @@
 # <p align=center> Create: Gunpowder </p>
+
+<div align="center">
+
 ![Version](https://img.shields.io/badge/Available_for-1.21.1-blue)
-![Mod Loader](https://img.shields.io/badge/Mod_Loader-NeoForge-orange)
 ![Requires](https://img.shields.io/badge/Requires-Create_6.0.x-blueviolet)
 ![License](https://img.shields.io/badge/License-All_Rights_Reserved-red)
+
+![NeoForge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/neoforge_vector.svg)
+![Forge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/unsupported/forge_vector.svg)
+
+[![GitHub](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/github_vector.svg)](https://github.com/aspctt/create-gunpowder)
+[![Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/modrinth_vector.svg)](https://modrinth.com/mod/create-gunpowder)
+[![CurseForge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/curseforge_vector.svg)](https://www.curseforge.com/minecraft/mc-mods/create-gunpowder-aspctt)
+
+</div>
 
 Create: Gunpowder adds production chains to produce gunpowder, mainly for modpacks or worlds where creepers don’t exist or drop it. Instead of mob farms, gunpowder becomes a processed resource that fits naturally into Create’s progression.
 
@@ -17,7 +28,12 @@ Mill Sand or Sandstone --> 2x Mineral Dust
 Mix Flint Shard + Carbon Dust --> Volatile Powder
 
 Mix Volatile Powder + Mineral Dust + Water + Heat --> 2x Gunpowder
+
+<div align="center">
+
 ![Recipe Path](https://cdn.modrinth.com/data/cached_images/d6c9891031b95f3a67822b1bd91b00e74c499e22.png)
+
+</div>
 
 ### Requirements
 
