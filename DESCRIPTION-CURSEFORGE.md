@@ -32,7 +32,7 @@
 <p>Mix Volatile Powder + Mineral Dust + Water + Heat --> 2x Gunpowder</p>
 
 <p style="text-align: center;">
-	<img src="https://media.forgecdn.net/attachments/1899/625/recipe-path-transparent-png.png" alt="Recipe Path">
+	<img src="https://i.ibb.co/0yJMJksy/Recipe-Path-Transparent.png" alt="Recipe Path">
 </p>
 
 <h3>Requirements</h3>

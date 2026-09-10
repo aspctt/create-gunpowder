@@ -31,7 +31,7 @@ Mix Volatile Powder + Mineral Dust + Water + Heat --> 2x Gunpowder
 
 <div align="center">
 
-![Recipe Path](https://cdn.modrinth.com/data/cached_images/d6c9891031b95f3a67822b1bd91b00e74c499e22.png)
+![Recipe Path](https://i.ibb.co/0yJMJksy/Recipe-Path-Transparent.png)
 
 </div>
 
