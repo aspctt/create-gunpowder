@@ -10,6 +10,8 @@
 	+ Rework .gitattributes and .gitignore for this project
 	+ Point the mod list homepage button at the Modrinth page
 	+ Replace the in-game description with the mod page summary
+	+ Move the build to Stonecutter, with a NeoForge 1.21.1 target and a Fabric 1.21.1 target prepared but not declared until Create's Fabric port reaches 1.21.1
+	+ Name the jar CreateGunpowder-<version>+<minecraft version>-<loader>.jar, and ship LICENSE and NOTICE inside it
 	+ No gameplay changes
 
 * 2026-01-06: 1.0.1
