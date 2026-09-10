@@ -33,7 +33,7 @@ displayName="${mod_name}" #mandatory
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 
 # A URL for the "homepage" for this mod, displayed in the mod UI
-displayURL="https://github.com/aspctt/create-gunpowder" #optional
+displayURL="https://modrinth.com/mod/create-gunpowder" #optional
 
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="icon.png" #optional
@@ -46,7 +46,7 @@ authors="aspctt"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Gunpowder production via Create!
+Gunpowder as a Create production chain! Flint, coal, and sand become gunpowder through pressing, milling, and a heated mix.
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.

@@ -8,6 +8,8 @@
 	+ Split the documentation: README for GitHub, DESCRIPTION for the mod pages
 	+ Correct the documented production chain: flint is pressed rather than crushed, and both mixing steps take the intermediate items rather than raw flint, coal, and sand
 	+ Rework .gitattributes and .gitignore for this project
+	+ Point the mod list homepage button at the Modrinth page
+	+ Replace the in-game description with the mod page summary
 	+ No gameplay changes
 
 * 2026-01-06: 1.0.1
