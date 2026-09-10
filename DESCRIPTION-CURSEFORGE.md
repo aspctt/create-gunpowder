@@ -41,7 +41,7 @@
 
 <h3>License</h3>
 
-<p>Create: Gunpowder is All Rights Reserved. The full terms are in <a href="https://github.com/aspctt/do-a-barrel-roll-neoforge/blob/main/LICENSE">LICENSE</a>.</p>
+<p>Create: Gunpowder is All Rights Reserved. The full terms are in <a href="https://github.com/aspctt/create-gunpowder/blob/main/LICENSE">LICENSE</a>.</p>
 
 <p>Version 1.0.0 shipped with its licence field set to MIT, and 1.0.1 under GPL-3.0-or-later. Those builds stay available under those terms to anyone who already has them. The terms above cover every release from 1.0.2 onward.</p>
 

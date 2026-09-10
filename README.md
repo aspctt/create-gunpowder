@@ -33,7 +33,7 @@ The chain runs through the mechanical press, the millstone, and the mixer, and e
 
 </div>
 
-Every step is a generated datapack recipe, so a pack can retune, extend, or remove any of them. Version history is in [CHANGE_LOG.md](./CHANGE_LOG.md), and the text used on the mod pages is in [DESCRIPTION.md](./DESCRIPTION.md).
+Every step is a generated datapack recipe, so a pack can retune, extend, or remove any of them. Version history is in [CHANGE_LOG.md](./CHANGE_LOG.md), and the text used on the mod pages is in [DESCRIPTION-MODRINTH.md](./DESCRIPTION-MODRINTH.md) and [DESCRIPTION-CURSEFORGE.md](./DESCRIPTION-CURSEFORGE.md).
 
 ## Installation
 
