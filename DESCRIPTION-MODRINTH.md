@@ -51,3 +51,9 @@ Create: Gunpowder is All Rights Reserved. The full terms are in [LICENSE](https:
 Version 1.0.0 shipped with its licence field set to MIT, and 1.0.1 under GPL-3.0-or-later. Those builds stay available under those terms to anyone who already has them. The terms above cover every release from 1.0.2 onward.
 
 Trademarks and third-party licences are covered in [NOTICE](https://github.com/aspctt/create-gunpowder/blob/main/NOTICE).
+
+<div align="center">
+
+[![BuyMeACoffee](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/buymeacoffee-singular_vector.svg)](https://buymeacoffee.com/aspctt)
+
+</div>
