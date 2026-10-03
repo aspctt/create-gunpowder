@@ -92,3 +92,7 @@ Please note the copyrights and trademarks in [NOTICE](./NOTICE).
 * The Create Team - [Create](https://github.com/Creators-of-Create/Create), whose press, millstone, and mixer this mod’s recipes run on
 * NeoForged - [NeoForge](https://github.com/neoforged/NeoForge), and the MDK this project started from
 * mezz - [Just Enough Items](https://github.com/mezz/JustEnoughItems), used in the development environment
+
+<p align=center>
+	<a alt="BuyMeACoffee" href="https://buymeacoffee.com/aspctt"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/buymeacoffee-singular_vector.svg"></a>
+</p>
