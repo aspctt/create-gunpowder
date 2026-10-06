@@ -1,19 +1,25 @@
-# <p align=center> Create: Gunpowder </p>
+# <p align=center style="text-align: center;"> Create: Gunpowder </p>
 
-<div align="center">
+<p align="center" style="text-align: center;">
+	<img alt="Available for" src="https://img.shields.io/badge/Available_for-1.21.1-blue">
+	<img alt="Requires" src="https://img.shields.io/badge/Requires-Create_6.0.x-blueviolet">
+	<img alt="License" src="https://img.shields.io/badge/License-All_Rights_Reserved-red">
+</p>
 
-![Version](https://img.shields.io/badge/Available_for-1.21.1-blue)
-![Requires](https://img.shields.io/badge/Requires-Create_6.0.x-blueviolet)
-![License](https://img.shields.io/badge/License-All_Rights_Reserved-red)
+<p align="center" style="text-align: center;">
+	<img alt="Available for NeoForge" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/neoforge_vector.svg">
+	<img alt="Won't support Forge" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/unsupported/forge_vector.svg">
+</p>
 
-![NeoForge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/neoforge_vector.svg)
-![Forge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/unsupported/forge_vector.svg)
+<p align="center" style="text-align: center;">
+	<a alt="Buy Me a Coffee" href="https://buymeacoffee.com/aspctt"><img alt="Buy Me a Coffee" height="40" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/donate/buymeacoffee-singular_vector.svg"></a>
+</p>
 
-[![GitHub](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/github_vector.svg)](https://github.com/aspctt/create-gunpowder)
-[![Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/modrinth_vector.svg)](https://modrinth.com/mod/create-gunpowder)
-[![CurseForge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/curseforge_vector.svg)](https://www.curseforge.com/minecraft/mc-mods/create-gunpowder-aspctt)
-
-</div>
+<p align="center" style="text-align: center;">
+	<a alt="Available on GitHub" href="https://github.com/aspctt/create-gunpowder"><img alt="Available on GitHub" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/github_vector.svg"></a>
+	<a alt="Available on Modrinth" href="https://modrinth.com/mod/create-gunpowder"><img alt="Available on Modrinth" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/modrinth_vector.svg"></a>
+	<a alt="Available on CurseForge" href="https://www.curseforge.com/minecraft/mc-mods/create-gunpowder-aspctt"><img alt="Available on CurseForge" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/curseforge_vector.svg"></a>
+</p>
 
 ## Description
 
@@ -92,7 +98,3 @@ Please note the copyrights and trademarks in [NOTICE](./NOTICE).
 * The Create Team - [Create](https://github.com/Creators-of-Create/Create), whose press, millstone, and mixer this mod’s recipes run on
 * NeoForged - [NeoForge](https://github.com/neoforged/NeoForge), and the MDK this project started from
 * mezz - [Just Enough Items](https://github.com/mezz/JustEnoughItems), used in the development environment
-
-<p align=center>
-	<a alt="BuyMeACoffee" href="https://buymeacoffee.com/aspctt"><img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/buymeacoffee-singular_vector.svg"></a>
-</p>
