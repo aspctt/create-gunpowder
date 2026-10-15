@@ -1,5 +1,6 @@
 package com.aspctt.creategunpowder.datagen;
 
+import com.aspctt.creategunpowder.recipe.ModCrushingRecipeGen;
 import com.aspctt.creategunpowder.recipe.ModMillingRecipeGen;
 import com.aspctt.creategunpowder.recipe.ModMixingRecipeGen;
 import com.aspctt.creategunpowder.recipe.ModPressingRecipeGen;
@@ -30,6 +31,7 @@ public class ModCreateRecipeProvider extends RecipeProvider implements IConditio
     //static final int BOTTLE = 250;
 
     public static void registerAllProcessing(DataGenerator generator, PackOutput packOutput, CompletableFuture<HolderLookup.Provider> registries) {
+        GENERATORS.add(new ModCrushingRecipeGen(packOutput, registries));
         GENERATORS.add(new ModMillingRecipeGen(packOutput, registries));
         GENERATORS.add(new ModMixingRecipeGen(packOutput, registries));
         GENERATORS.add(new ModPressingRecipeGen(packOutput, registries));

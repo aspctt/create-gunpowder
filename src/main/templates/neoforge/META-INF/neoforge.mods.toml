@@ -26,10 +26,13 @@ versionRange = "${minecraft_version_range}"
 ordering = "NONE"
 side = "BOTH"
 
-# Every recipe this mod adds runs on Create's press, millstone and mixer.
+# Every recipe this mod adds runs on Create's press, millstone, crushing wheels and mixer.
+# Loading after Create puts this mod's data pack above Create's, which is what lets the
+# files in data/create/recipe/milling switch off Create's own coal, charcoal and sandstone
+# milling recipes. With "NONE" the two packs land in discovery order instead.
 [[dependencies.${mod_id}]]
 modId = "create"
 type = "required"
 versionRange = "${create_version_range}"
-ordering = "NONE"
+ordering = "AFTER"
 side = "BOTH"
