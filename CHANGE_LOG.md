@@ -1,6 +1,11 @@
 # Create: Gunpowder :: Change Log
 - - -
 
+* 2026-10-16: 1.0.3
+	+ Fix the millstone sometimes turning charcoal, coal, or sandstone into dye or sand instead of Carbon Dust or Mineral Dust (#1)
+	+ Move Create's coal, charcoal, and sandstone milling recipes to the crushing wheels, with the same outputs
+	+ Load after Create, so its data never overrides these changes
+
 * 2026-08-27: 1.0.2
 	+ Replace the GPL-3.0-or-later licence with the Create: Gunpowder licence: All Rights Reserved, with an irrevocable grant covering datapacks, resource packs, scripts, and configs, and modpack inclusion by reference rather than by bundling the JAR
 	+ Add NOTICE, covering the Minecraft and Create trademarks, the NeoForged MDK terms, and the licensing of NeoForge, Create, and the libraries resolved alongside it
