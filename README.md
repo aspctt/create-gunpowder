@@ -33,13 +33,15 @@ The chain runs through the mechanical press, the millstone, and the mixer, and e
 * Mix Flint Shard + Carbon Dust --> Volatile Powder
 * Mix Volatile Powder + Mineral Dust + Water + Heat --> 2x Gunpowder
 
+Create's own millstone recipes for coal, charcoal and sandstone move to the crushing wheels with the same outputs, so the millstone always gives the dusts while the wheels keep making dye and sand.
+
 <div align="center">
 
 ![Recipe Path](https://cdn.modrinth.com/data/cached_images/d6c9891031b95f3a67822b1bd91b00e74c499e22.png)
 
 </div>
 
-Every step is a generated datapack recipe, so a pack can retune, extend, or remove any of them. Version history is in [CHANGE_LOG.md](./CHANGE_LOG.md), and the text used on the mod pages is in [DESCRIPTION-MODRINTH.md](./DESCRIPTION-MODRINTH.md) and [DESCRIPTION-CURSEFORGE.md](./DESCRIPTION-CURSEFORGE.md).
+Every step is a generated datapack recipe, so a pack can retune, extend, or remove any of them. Version history is in [CHANGE_LOG.md](./CHANGE_LOG.md), and the text used on the mod pages is in [DESCRIPTION.md](./DESCRIPTION.md).
 
 ## Installation
 
@@ -95,6 +97,6 @@ Please note the copyrights and trademarks in [NOTICE](./NOTICE).
 
 ### Built against
 
-* The Create Team - [Create](https://github.com/Creators-of-Create/Create), whose press, millstone, and mixer this mod’s recipes run on
+* The Create Team - [Create](https://github.com/Creators-of-Create/Create), whose press, millstone, crushing wheels, and mixer this mod’s recipes run on
 * NeoForged - [NeoForge](https://github.com/neoforged/NeoForge), and the MDK this project started from
 * mezz - [Just Enough Items](https://github.com/mezz/JustEnoughItems), used in the development environment

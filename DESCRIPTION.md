@@ -35,6 +35,8 @@ Mix Flint Shard + Carbon Dust --> Volatile Powder
 
 Mix Volatile Powder + Mineral Dust + Water + Heat --> 2x Gunpowder
 
+Create's own millstone recipes for coal, charcoal and sandstone move to the crushing wheels with the same outputs, so the millstone always gives the dusts while the wheels keep making dye and sand.
+
 <p align="center" style="text-align: center;">
 	<img alt="Recipe Path" src="https://i.ibb.co/0yJMJksy/Recipe-Path-Transparent.png">
 </p>
