@@ -66,7 +66,7 @@ The build is organised with [Stonecutter](https://stonecutter.kikugie.dev/), whi
 ./gradlew :1.21.1-neoforge:runData       # regenerate the recipes, tags, and item models under src/generated
 ```
 
-Jars are written to `versions/<target>/build/libs`.
+Each build writes the mod jar and a sources jar to `versions/<target>/build/libs`, and deletes any jars an earlier version left there.
 
 | Target | Status |
 |---|---|
