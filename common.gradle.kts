@@ -23,6 +23,8 @@ configure<BasePluginExtension> {
 val javaVersion = 21
 configure<JavaPluginExtension> {
     toolchain.languageVersion = JavaLanguageVersion.of(javaVersion)
+    // Built alongside the mod jar by `build`, and published with it.
+    withSourcesJar()
 }
 
 // Expand the declared properties into the mod metadata templates. Each loader's script contributes the
@@ -43,13 +45,27 @@ val commonMetadataProperties: Map<String, String> = mapOf(
 )
 extra["commonMetadataProperties"] = commonMetadataProperties
 
-// The licence and notices travel inside the jar, suffixed so they cannot collide with another mod's.
-tasks.named<Jar>("jar") {
-    // A local rather than a script-level value: the configuration cache cannot serialise a lambda that
-    // reaches back into the script object, and a top-level val is a member of it.
-    val suffix = "_" + prop("mod_archives_name")
-    from(rootProject.files("LICENSE", "NOTICE")) {
-        rename { it + suffix }
+// Jars from earlier versions are deleted before new ones are written, so build/libs only ever holds the
+// current version's mod and sources jars. Anything named after the current version is left alone, since
+// that is what the jar tasks are about to overwrite or may already be up to date with.
+val deleteOldJars = tasks.register<Delete>("deleteOldJars") {
+    val currentPrefix = "${prop("mod_archives_name")}-${project.version}"
+    delete(fileTree(layout.buildDirectory.dir("libs")) {
+        include("*.jar")
+        exclude("$currentPrefix.jar", "$currentPrefix-*.jar")
+    })
+}
+
+// The licence and notices travel inside both jars, suffixed so they cannot collide with another mod's.
+listOf("jar", "sourcesJar").forEach { jarTaskName ->
+    tasks.named<Jar>(jarTaskName) {
+        dependsOn(deleteOldJars)
+        // A local rather than a script-level value: the configuration cache cannot serialise a lambda that
+        // reaches back into the script object, and a top-level val is a member of it.
+        val suffix = "_" + prop("mod_archives_name")
+        from(rootProject.files("LICENSE", "NOTICE")) {
+            rename { it + suffix }
+        }
     }
 }
 
